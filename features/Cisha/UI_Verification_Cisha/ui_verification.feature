@@ -25,6 +25,7 @@ Feature: Cisha UI Verification
     |  de    | Wieso cisha  |
     |  de    | Kontakt      |
 
+
   @languages
   Scenario: Search services in German language
 
@@ -32,11 +33,15 @@ Feature: Cisha UI Verification
     When The customer goes to  Leistungen tab
     Then The customer should be successfully redirected to Leistungen page
 
+  @languages
+  Scenario: Search services in English language
 
-
+    Given The customer who is access some ws in en
+    When The customer goes to  Contact tab
+    Then The customer should be successfully redirected to Contact page
 
   @smoke
-  Scenario: Search services
+  Scenario: Search services in English language
 
     Given The customer who is access some ws in en
     When The customer goes to Our services tab
