@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35069d48-8295-47f5-aae3-d560bb4ec609" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Cisha/UI_Verification_Cisha/ui_verification.feature" afterPath="$PROJECT_DIR$/features/Cisha/UI_Verification_Cisha/ui_verification.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CucumberExamples.iws" />
@@ -33,7 +32,7 @@
       <file leaf-file-name="ui_verification.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/Cisha/UI_Verification_Cisha/ui_verification.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="44" selection-start="211" selection-end="211" vertical-scroll-proportion="0.2125" vertical-offset="0" max-vertical-offset="935">
+            <state line="22" column="29" selection-start="651" selection-end="651" vertical-scroll-proportion="0.66785717" vertical-offset="0" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -624,7 +623,11 @@
       <created>1393668003557</created>
       <updated>1393668003557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ui_verification.feature&#10;">
+      <created>1393673938427</created>
+      <updated>1393673938427</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -637,10 +640,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.261875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.261875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23551637" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23551637" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22166246" sideWeight="0.9075" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -668,7 +671,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Changes in login.feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in login.feature" />
+    <MESSAGE value="ui_verification.feature&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="ui_verification.feature&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -988,7 +992,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/Cisha/UI_Verification_Cisha/ui_verification.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="44" selection-start="211" selection-end="211" vertical-scroll-proportion="0.2125" vertical-offset="0" max-vertical-offset="935">
+        <state line="22" column="29" selection-start="651" selection-end="651" vertical-scroll-proportion="0.66785717" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
