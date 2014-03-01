@@ -2,6 +2,7 @@ Feature: Cisha UI Verification
 
   As a Product Owner I would like to verify User Interface behaviour
 
+
   Background:
     Given the stable internet connection
 
