@@ -3,8 +3,9 @@ require 'anticipate'
 require 'include'
 require 'page-object'
 require 'rspec/expectations'
-
-
+require 'rest_client'
+require 'json'
+require_relative "../../../../lib/login_on_ui"
 
 Given(/^a registered customer is on site$/) do
 
@@ -17,8 +18,8 @@ end
 When(/^the customer tries to login with correct password$/) do
   sleep 3
  credentials = LoginOnUI.new("kalina.1975@abv.bg","Proxiad%2" )
- @email = @driver.find_element(:id, 'LoginForm_emailOrUsername').send_key(credentials.get_email)
- @password = @driver.find_element(:id, 'LoginForm_password').send_key(credentials.get_password)
+ @email = @driver.find_element(:id, 'LoginForm_emailOrUsername').send_key(credentials.email)
+ @password = @driver.find_element(:id, 'LoginForm_password').send_key(credentials.password)
  @driver.find_element(:name, 'yt0').submit
 
 end
@@ -38,8 +39,8 @@ When(/^the customer tries to login with incorrect email and password$/) do
   account = (0...10).map{97.+(rand(25)).chr}.join + "@yahoo.com"
   pass = rand(00000000...9999999)
   credentials = LoginOnUI.new(account.to_s,pass.to_s )
-  @email = @driver.find_element(:id, 'LoginForm_emailOrUsername').send_key(credentials.get_email)
-  @password = @driver.find_element(:id, 'LoginForm_password').send_key(credentials.get_password)
+  @email = @driver.find_element(:id, 'LoginForm_emailOrUsername').send_key(credentials.email)
+  @password = @driver.find_element(:id, 'LoginForm_password').send_key(credentials.password)
   @driver.find_element(:name, 'yt0').submit
 end
 
@@ -54,8 +55,8 @@ When(/^the customer tries to login with invalid email$/) do
   account = (0...10).map{97.+(rand(25)).chr}.join
   pass = rand(00000000...9999999)
   credentials = LoginOnUI.new(account.to_s,pass.to_s )
-  @email = @driver.find_element(:id, 'LoginForm_emailOrUsername').send_key(credentials.get_email)
-  @password = @driver.find_element(:id, 'LoginForm_password').send_key(credentials.get_password)
+  @email = @driver.find_element(:id, 'LoginForm_emailOrUsername').send_key(credentials.email)
+  @password = @driver.find_element(:id, 'LoginForm_password').send_key(credentials.password)
   @driver.find_element(:name, 'yt0').submit
 
 end
@@ -65,8 +66,8 @@ When(/^the customer tries to login without any credentials$/) do
   account = ''
   pass = ''
   credentials = LoginOnUI.new(account.to_s,pass.to_s )
-  @email = @driver.find_element(:id, 'LoginForm_emailOrUsername').send_key(credentials.get_email)
-  @password = @driver.find_element(:id, 'LoginForm_password').send_key(credentials.get_password)
+  @email = @driver.find_element(:id, 'LoginForm_emailOrUsername').send_key(credentials.email)
+  @password = @driver.find_element(:id, 'LoginForm_password').send_key(credentials.password)
   @driver.find_element(:name, 'yt0').submit
 
 end

@@ -10,7 +10,7 @@ end
 
 
 When(/^The customer goes to (.*) tab/) do |link|
-  sleep 1
+  sleep 3
   @driver.find_element(:class, "item-121").click if link == 'Our services'
   @driver.find_element(:class, "item-119").click if link =='Why cisha'
   @driver.find_element(:class, "item-122").click if link =='Contact'
