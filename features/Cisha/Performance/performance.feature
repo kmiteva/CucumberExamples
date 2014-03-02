@@ -17,7 +17,7 @@ Feature: Response time of RESTful web service in ms
     |http://www.chess24.com/de/play|
 
 
-  @performance
+  @performance @smoke
   Scenario: Response time of selected RESTful web service
 
     Given Selected  RESTful web service

@@ -2,6 +2,7 @@ Feature: RESTWebServices
 
   As a Test engineer I would like to verify the response code
 
+  @smoke
   Scenario: RESTWebServices
 
     Given the RESTWebService

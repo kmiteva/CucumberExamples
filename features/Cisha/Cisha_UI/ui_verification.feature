@@ -6,7 +6,7 @@ Feature: Cisha UI Verification
   Background:
     Given the stable internet connection
 
-  @sanity
+
   Scenario Outline: All links are accessible
 
     Given The customer who is access some ws in <language>
@@ -35,7 +35,7 @@ Feature: Cisha UI Verification
     When The customer goes to Karriere tab
     Then The customer should be successfully redirected to Karriere page
 
-  @languages
+  @sanity
   Scenario: Search 'Contact' service in English language
 
     Given The customer who is access some ws in en
