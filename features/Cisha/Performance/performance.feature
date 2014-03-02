@@ -11,6 +11,7 @@ Feature: Response time of RESTful web service in ms
     Then the response time should be returned
     And the average response time should be calculated
 
+
     Examples:
     |RESTful|
     |http://www.chess24.com/en/play|
