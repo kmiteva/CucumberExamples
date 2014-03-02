@@ -6,4 +6,4 @@ Feature: RESTWebServices
 
     Given the RESTWebService
     When request the RESTWebService
-    Then response should be successful
+    Then the response should be successful

@@ -21,7 +21,7 @@ When(/^request the RESTWebService$/) do
   #puts @get_response.body
 end
 
-Then(/^response should be successful$/) do
+Then(/^the response should be successful$/) do
   code_response=@get_response.code
   response = Responses.new(code_response)
   result = response.createassert
