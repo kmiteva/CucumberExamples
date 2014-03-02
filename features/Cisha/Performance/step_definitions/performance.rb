@@ -35,10 +35,10 @@ And(/^the average response time should be calculated$/) do
     }
     #end
     average_response =  sum/3
-    puts "The avarege response is #{average_response} for the following #{@restful_webservice} "
+    puts "The avarege response is #{average_response} ms for the following #{@restful_webservice} "
     end
 end
 
 Given(/^Selected  RESTful web service$/) do
-  @response_time  = @pingHost.ping("http://www.chess24.com/en/play")
+  @restful_webservice = "http://www.chess24.com/en/play"
 end
