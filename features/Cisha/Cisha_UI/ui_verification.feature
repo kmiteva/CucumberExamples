@@ -32,14 +32,14 @@ Feature: Cisha UI Verification
   Scenario: Search services in German language
 
     Given The customer who is access some ws in de
-    When The customer goes to  Karriere tab
+    When The customer goes to Karriere tab
     Then The customer should be successfully redirected to Karriere page
 
   @languages
   Scenario: Search 'Contact' service in English language
 
     Given The customer who is access some ws in en
-    When The customer goes to  Contact tab
+    When The customer goes to Contact tab
     Then The customer should be successfully redirected to Contact page
 
   @smoke
