@@ -36,14 +36,14 @@ Feature: Cisha UI Verification
     Then The customer should be successfully redirected to Karriere page
 
   @languages
-  Scenario: Search services in English language
+  Scenario: Search 'Contact' service in English language
 
     Given The customer who is access some ws in en
     When The customer goes to  Contact tab
     Then The customer should be successfully redirected to Contact page
 
   @smoke
-  Scenario: Search services in English language
+  Scenario: Search 'Our services' service in English language
 
     Given The customer who is access some ws in en
     When The customer goes to Our services tab

@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35069d48-8295-47f5-aae3-d560bb4ec609" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/features/Cisha/WebServices/RESTWebService.feature" />
-      <change type="DELETED" beforePath="C:\Users\C5199410\RubymineProjects\CucumberExamples\features\Cisha\WebServices\api_calls.feature" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\C5199410\RubymineProjects\CucumberExamples\features\Cisha\UI_Verification_Cisha\step_definitions\ui_verification.rb" afterPath="$PROJECT_DIR$/features/Cisha/Cisha_UI/step_definitions/ui_verification.rb" />
-      <change type="MOVED" beforePath="C:\Users\C5199410\RubymineProjects\CucumberExamples\features\Cisha\UI_Verification_Cisha\ui_verification.feature" afterPath="$PROJECT_DIR$/features/Cisha/Cisha_UI/ui_verification.feature" />
-      <change type="MOVED" beforePath="C:\Users\C5199410\RubymineProjects\CucumberExamples\features\Cisha\WebServices\step_definitions\api_calls.rb" afterPath="$PROJECT_DIR$/features/Cisha/WebServices/step_definitions/RESTWebService.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Cisha/chess24_UI/login.feature" afterPath="$PROJECT_DIR$/features/Cisha/chess24_UI/login.feature" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Cisha/Cisha_UI/ui_verification.feature" afterPath="$PROJECT_DIR$/features/Cisha/Cisha_UI/ui_verification.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CucumberExamples.iws" />
@@ -103,19 +100,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ui_verification.feature" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ui_verification.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/Cisha/Cisha_UI/ui_verification.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="29" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="969">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ui_verification.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/Cisha/Cisha_UI/step_definitions/ui_verification.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1445">
+            <state line="44" column="8" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.5734127" vertical-offset="459" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
@@ -124,16 +112,25 @@
       <file leaf-file-name="RESTWebService.feature" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/Cisha/WebServices/RESTWebService.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="28" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+            <state line="6" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RESTWebService.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="RESTWebService.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/Cisha/WebServices/step_definitions/RESTWebService.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="13" selection-start="823" selection-end="823" vertical-scroll-proportion="0.48809522" vertical-offset="247" max-vertical-offset="782">
+            <state line="25" column="17" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/Cisha/chess24_UI/step_definitions/login.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="23" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0" vertical-offset="839" max-vertical-offset="1343">
               <folding />
             </state>
           </provider>
@@ -148,19 +145,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="responces.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/responces.rb">
+      <file leaf-file-name="login_on_ui.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/login_on_ui.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="3" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+            <state line="15" column="3" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/features/Cisha/chess24_UI/step_definitions/login.rb">
+      <file leaf-file-name="responces.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/responces.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="44" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="1343">
+            <state line="4" column="6" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.feature" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/features/Cisha/chess24_UI/login.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="42" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -179,15 +185,6 @@
         <entry file="file://$PROJECT_DIR$/features/Cisha/Performance/step_definitions/performance.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="0" selection-start="484" selection-end="484" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="833">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ping_host.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/ping_host.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -234,7 +231,6 @@
         <option value="$PROJECT_DIR$/features/Cisha/chess24_UI/url_site.rb" />
         <option value="$PROJECT_DIR$/features/Cisha/chess24_UI/step_definitions/responces.rb" />
         <option value="$PROJECT_DIR$/features/Cisha/chess24_UI/login_on_ui.rb" />
-        <option value="$PROJECT_DIR$/features/Cisha/chess24_UI/login.feature" />
         <option value="$PROJECT_DIR$/features/Cisha/chess24_UI/responces.rb" />
         <option value="$PROJECT_DIR$/features/Cisha/chess24_UI/step_definitions/api_calls.rb" />
         <option value="$PROJECT_DIR$/features/Cisha/chess24_UI/performance.feature" />
@@ -251,6 +247,8 @@
         <option value="$PROJECT_DIR$/features/Cisha/WebServices/step_definitions/api_calls.rb" />
         <option value="$PROJECT_DIR$/features/Cisha/WebServices/RESTWebService.feature" />
         <option value="$PROJECT_DIR$/features/Cisha/WebServices/step_definitions/RESTWebService.rb" />
+        <option value="$PROJECT_DIR$/features/Cisha/chess24_UI/login.feature" />
+        <option value="$PROJECT_DIR$/features/Cisha/Cisha_UI/ui_verification.feature" />
       </list>
     </option>
   </component>
@@ -363,6 +361,36 @@
               <option name="myItemId" value="Cisha" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chess24_UI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cisha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chess24_UI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="step_definitions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -431,6 +459,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Performance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cisha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cisha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cisha_UI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CucumberExamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="features" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cisha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cisha_UI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="step_definitions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -704,7 +798,11 @@
       <created>1393747903143</created>
       <updated>1393747903143</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="refactoring&#10;">
+      <created>1393750692368</created>
+      <updated>1393750692368</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -932,7 +1030,9 @@
     </entry>
     <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/selenium-webdriver-2.40.0/lib/selenium/webdriver/common/driver.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="179" selection-end="179" vertical-scroll-proportion="0.23089983" vertical-offset="0" max-vertical-offset="5219" />
+        <state line="8" column="24" selection-start="179" selection-end="179" vertical-scroll-proportion="0.23089983" vertical-offset="0" max-vertical-offset="5219">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/Cucumbers/cucumbers.feature">
@@ -979,37 +1079,9 @@
         <state line="12" column="5" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/login_on_ui.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Cisha/chess24_UI/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="54" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Cisha/chess24_UI/step_definitions/login.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="44" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="837" max-vertical-offset="1343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/Cisha/Cisha_UI/step_definitions/ui_verification.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/features/Cisha/Cisha_UI/ui_verification.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
@@ -1042,23 +1114,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/Cisha/WebServices/RESTWebService.feature">
+    <entry file="file://$PROJECT_DIR$/features/Cisha/WebServices/step_definitions/RESTWebService.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="28" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+        <state line="25" column="17" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/responces.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="3" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state line="4" column="6" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/Cisha/WebServices/step_definitions/RESTWebService.rb">
+    <entry file="file://$PROJECT_DIR$/features/Cisha/WebServices/RESTWebService.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="823" selection-end="823" vertical-scroll-proportion="0.48809522" vertical-offset="247" max-vertical-offset="782">
+        <state line="6" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Cisha/chess24_UI/step_definitions/login.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="23" selection-start="2182" selection-end="2182" vertical-scroll-proportion="0.0" vertical-offset="839" max-vertical-offset="1343">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/login_on_ui.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="3" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Cisha/chess24_UI/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="42" selection-start="784" selection-end="784" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/Cisha/Cisha_UI/ui_verification.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="8" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.5734127" vertical-offset="459" max-vertical-offset="969">
           <folding />
         </state>
       </provider>

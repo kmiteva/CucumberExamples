@@ -1,4 +1,5 @@
 Feature: Basic Login in chess24
+
   As a Product owner I would like to verify all types of  login
 
   @sanity @smoke @login @successful_login
