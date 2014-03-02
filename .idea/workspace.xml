@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35069d48-8295-47f5-aae3-d560bb4ec609" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Cisha/chess24_UI/login.feature" afterPath="$PROJECT_DIR$/features/Cisha/chess24_UI/login.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/features/Cisha/Cisha_UI/ui_verification.feature" afterPath="$PROJECT_DIR$/features/Cisha/Cisha_UI/ui_verification.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CucumberExamples.iws" />
@@ -103,7 +101,7 @@
       <file leaf-file-name="ui_verification.feature" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/Cisha/Cisha_UI/ui_verification.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="8" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.5734127" vertical-offset="459" max-vertical-offset="969">
+            <state line="45" column="39" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.60714287" vertical-offset="459" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
@@ -802,14 +800,18 @@
       <created>1393750692368</created>
       <updated>1393750692368</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactoring&#10;">
+      <created>1393757428591</created>
+      <updated>1393757428591</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30604535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30604535" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299748" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1158,7 +1160,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/Cisha/Cisha_UI/ui_verification.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="8" selection-start="1222" selection-end="1222" vertical-scroll-proportion="0.5734127" vertical-offset="459" max-vertical-offset="969">
+        <state line="45" column="39" selection-start="1262" selection-end="1262" vertical-scroll-proportion="0.60714287" vertical-offset="459" max-vertical-offset="969">
           <folding />
         </state>
       </provider>
