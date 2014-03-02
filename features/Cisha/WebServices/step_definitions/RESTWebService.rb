@@ -2,7 +2,7 @@ require 'test/unit'
 require 'rest-client'
 require_relative "../../../../lib/responces"
 
-Given(/^the API$/) do
+Given(/^the RESTWebService$/) do
 
 @web_service = "https://chess24.com/en/learn"
 
@@ -10,10 +10,10 @@ Given(/^the API$/) do
   end
 
 
-When(/^request the API$/) do
+When(/^request the RESTWebService$/) do
   @get_response = RestClient.get( @web_service,
                                  {
-                                     "Content-Type" => "application/json"
+                                     "Content-Type" => "text/html"
                                      #"Authorization" => "token 4d012314b7e46008f215cdb7d120cdd7",
                                      #"Manufacturer-Token" => "8d0693ccfe65104600e2555d5af34213"
                                  }
