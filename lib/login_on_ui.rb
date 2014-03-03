@@ -16,5 +16,28 @@ class LoginOnUI
   #
   #end
 
+  def password_length
+   password_lenght =  @password.length
+    return password_lenght
+
+  end
+
+
+  def password
+    password =  @password
+    return password
+
+  end
+
+  def email_correctness
+    email = @email
+   if email.include? "@"
+     return true
+     else
+    return false
+  end
+  end
+
+
 
 end
