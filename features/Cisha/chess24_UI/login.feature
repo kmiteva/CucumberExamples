@@ -10,11 +10,11 @@ Feature: Basic Login in chess24
     Then the login attempt should be successful
 
 
-  @regression @error_message
+  @regression @error_message @not-be-tested
   Scenario: Unsuccessful Login /A customer has incorrect login credentials
-
+#    BUG 1234
     Given a registered customer is on site
-    When the customer tries to login with incorrect email and password
+    When the customer tries to login with incorrect password
     Then the login attempt should be unsuccessful
 
   @regression  @error_message

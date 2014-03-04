@@ -1,15 +1,15 @@
-require "../../../lib/login_on_ui"
+require_relative "../../../lib/login_on_ui"
 require "test/unit"
 
 class TC_password_email < Test::Unit::TestCase
 
 
   def test_exact_password_length
-    assert_equal(8, LoginOnUI.new('jhon_customer@yahoo.com', 'jhon_cus').password_length)
+    assert_equal(6, LoginOnUI.new('jhon_customer@yahoo.com', 'jhon_cus').password_length)
   end
 
   def test_password_length
-    assert(LoginOnUI.new('jhon_customer@yahoo.com', 'jhon_customer').password_length>8, "The lenght of the password is less then 8 char" )
+    assert(LoginOnUI.new('jhon_customer@yahoo.com', 'jhon').password_length>8, "The lenght of the password is less then 8 char" )
   end
 
   def test_password_not_nil

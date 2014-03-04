@@ -35,7 +35,7 @@ Then(/^the login attempt should be successful$/) do
   @driver.close
 end
 
-When(/^the customer tries to login with incorrect email and password$/) do
+When(/^the customer tries to login with incorrect password$/) do
   account = (0...10).map{97.+(rand(25)).chr}.join + "@yahoo.com"
   pass = rand(00000000...9999999)
   credentials = LoginOnUI.new(account.to_s,pass.to_s )
@@ -63,8 +63,8 @@ end
 
 When(/^the customer tries to login without any credentials$/) do
 
-  account = ''
-  pass = ''
+  account = nil
+  pass = nil
   credentials = LoginOnUI.new(account.to_s,pass.to_s )
   @email = @driver.find_element(:id, 'LoginForm_emailOrUsername').send_key(credentials.email)
   @password = @driver.find_element(:id, 'LoginForm_password').send_key(credentials.password)
