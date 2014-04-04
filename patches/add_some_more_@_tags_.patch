@@ -1,0 +1,16 @@
+Index: features/Cisha/Performance/performance.feature
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- features/Cisha/Performance/performance.feature	(revision 7490c7cb0506244cb32b3c59911afa00d9652cae)
++++ features/Cisha/Performance/performance.feature	(revision )
+@@ -11,6 +11,7 @@
+     Then the response time should be returned
+     And the average response time should be calculated
+ 
++
+     Examples:
+     |RESTful|
+     |http://www.chess24.com/en/play|
+\ No newline at end of file

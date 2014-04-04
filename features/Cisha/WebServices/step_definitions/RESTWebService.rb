@@ -4,7 +4,7 @@ require_relative "../../../../lib/responces"
 
 Given(/^the RESTWebService$/) do
 
-@web_service = "https://chess24.com/en/learn"
+@web_service = "https://apple.com"
 
 
   end

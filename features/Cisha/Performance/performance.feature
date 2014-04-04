@@ -14,8 +14,17 @@ Feature: Response time of RESTful web service in ms
 
     Examples:
     |RESTful|
-    |http://www.chess24.com/en/play|
-    |http://www.chess24.com/de/play|
+    |http://www.google.bg|
+    |http://www.google.de|
+    |http://www.google.com|
+    |http://www.google.fr|
+
+  Scenario: Response time of RESTful web services
+
+    Given http://www.google.co.uk  web service
+    When request for response time
+    Then the response time should be returned
+    And the average response time should be calculated
 
 
   @performance @smoke

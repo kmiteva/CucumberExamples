@@ -3,6 +3,7 @@ Feature: I would like to search something in the network
 
   Background:
     Given the stable internet connection is established
+
   @smoke
   Scenario Outline: Search fruits in google
 
