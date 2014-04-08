@@ -1,6 +1,6 @@
 Feature: Unit Tests
 
-
+@unit_test
   Scenario: Unit Tests
 
     Given Created unit
